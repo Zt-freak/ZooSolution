@@ -10,14 +10,17 @@ namespace ZooApplication
         public int Energy { get; set; }
         public string Name { get; set; }
 
-        public Animal()
-        { }
-
-        public int Eat() 
-        { 
-            Energy += 25;
-
-            return Energy;
+        public Animal(string name)
+        {
+            Name = name;
+            Energy = 100;
         }
+
+        public virtual int Eat() 
+        { 
+            return Energy += 25;
+        }
+
+        public abstract int UseEnergy();
     }
 }
