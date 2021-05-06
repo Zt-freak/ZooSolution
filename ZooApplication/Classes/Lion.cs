@@ -5,10 +5,14 @@
 /// </summary>
 namespace ZooApplication
 {
-	public class Lion : Animal
+	public sealed class Lion : Animal
 	{
-		public Lion()
+		public Lion(string name) : base(name)
 		{
+		}
+		public override int UseEnergy()
+		{
+			return Energy -= 10;
 		}
 	}
 }
