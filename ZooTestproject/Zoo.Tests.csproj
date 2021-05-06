@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ZooApplication\ZooApplication.csproj" />
+    <ProjectReference Include="..\ZooApplication\Zoo.WPF.csproj" />
   </ItemGroup>
 
 </Project>
