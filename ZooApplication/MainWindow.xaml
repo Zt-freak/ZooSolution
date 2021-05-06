@@ -19,5 +19,9 @@
         <Button x:Name="FeedLionsButton" Content="Lions" HorizontalAlignment="Left" Margin="360,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
         <Button x:Name="FeedMonkeysButton" Content="Monkeys" HorizontalAlignment="Left" Margin="465,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
         <Button x:Name="FeedAllAnimalsButton" Content="All" HorizontalAlignment="Left" Margin="570,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
+        <Label Content="Change timer (milliseconds)" HorizontalAlignment="Left" Margin="255,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ChangeTimerBox" HorizontalAlignment="Left" Margin="255,203,0,0" Text="500" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ChangeTimerButton" Content="Change" HorizontalAlignment="Center" Margin="0,202,0,0" VerticalAlignment="Top" Click="ChangeTimerButton_Click"/>
+        <Button x:Name="StartStopTimerButton" Content="Stop" HorizontalAlignment="Left" Margin="255,226,0,0" VerticalAlignment="Top" Width="50" Click="StartStopTimerButton_Click"/>
     </Grid>
 </Window>
