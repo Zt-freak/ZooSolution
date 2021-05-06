@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo.WPF", "ZooApplication\Z
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Tests", "ZooTestproject\Zoo.Tests.csproj", "{BA5D7ADD-92F5-4AA5-A4C1-F69FE4661EA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo.Models", "Zoo.Models\Zoo.Models.csproj", "{C5C0C0D5-A88C-44FF-9B94-278EBC9CFAB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BA5D7ADD-92F5-4AA5-A4C1-F69FE4661EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA5D7ADD-92F5-4AA5-A4C1-F69FE4661EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA5D7ADD-92F5-4AA5-A4C1-F69FE4661EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C0C0D5-A88C-44FF-9B94-278EBC9CFAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C0C0D5-A88C-44FF-9B94-278EBC9CFAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C0C0D5-A88C-44FF-9B94-278EBC9CFAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C0C0D5-A88C-44FF-9B94-278EBC9CFAB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

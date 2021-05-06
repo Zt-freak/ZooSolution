@@ -3,7 +3,7 @@
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-namespace ZooApplication
+namespace Zoo.Models
 {
 	public sealed class Monkey : Animal
 	{
