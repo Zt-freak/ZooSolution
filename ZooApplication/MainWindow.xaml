@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <ListBox x:Name="AnimalListBox" Margin="0,0,550,0"/>
+        <Label Content="Add new animal" HorizontalAlignment="Left" Margin="255,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="SpeciesBox" SelectedIndex="0" HorizontalAlignment="Left" Margin="324,41,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AnimalNameBox" HorizontalAlignment="Left" Margin="324,68,0,0" Text="Joost" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddAnimalButton" Content="Add" HorizontalAlignment="Left" Margin="324,91,0,0" VerticalAlignment="Top" Click="AddAnimalButton_Click"/>
+        <Label Content="Species:" HorizontalAlignment="Left" Margin="255,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="255,62,0,0" VerticalAlignment="Top"/>
+        <Label Content="Feed animals" HorizontalAlignment="Left" Margin="255,116,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="FeedElephantsButton" Content="Elephants" HorizontalAlignment="Left" Margin="255,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
+        <Button x:Name="FeedLionsButton" Content="Lions" HorizontalAlignment="Left" Margin="360,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
+        <Button x:Name="FeedMonkeysButton" Content="Monkeys" HorizontalAlignment="Left" Margin="465,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
+        <Button x:Name="FeedAllAnimalsButton" Content="All" HorizontalAlignment="Left" Margin="570,147,0,0" VerticalAlignment="Top" Width="100" Click="FeedAnimalsButton_Click"/>
     </Grid>
 </Window>
