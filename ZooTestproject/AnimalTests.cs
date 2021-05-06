@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using ZooApplication;
+using Zoo.Models;
 
 namespace ZooTestproject
 {
